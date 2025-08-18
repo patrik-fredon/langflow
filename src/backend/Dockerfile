@@ -1,6 +1,6 @@
 FROM langflowai/backend_build as backend_build
 
-FROM python:3.13.3-slim
+FROM python:3.14.0rc2-slim
 WORKDIR /app
 
 RUN apt-get update && apt-get install git -y
